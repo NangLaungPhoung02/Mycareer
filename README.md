@@ -136,7 +136,7 @@ This project was developed to strengthen my understanding of:
 
 Developed by **Nang Laung Phoung**
 
-GitHub: https://github.com/your-github-username
+GitHub: [https://github.com/NangLaungPhoung02]
 
 ## License
 
