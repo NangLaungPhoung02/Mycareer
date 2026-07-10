@@ -1,16 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>MyCareer</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
 </head>
+
 <body>
 
-<h1>Welcome to MyCareer</h1>
+    <header class="navbar">
+        <div class="container">
 
-<p>This is my Internship Application Tracker.</p>
+            <a href="/" class="logo">
+                My<span>Career</span>
+            </a>
 
-<a href="/login">Login</a>
-<a href="/register">Register</a>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/login">Login</a>
+                <a href="/register" class="register-button">
+                    Register
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-label">
+                Internship Application Tracker
+            </p>
+
+            <h1>
+                Organise your job search in one place
+            </h1>
+
+            <p class="hero-description">
+                Track applications, interviews, offers and important
+                follow-up dates with MyCareer.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="/register" class="primary-button">
+                    Get Started
+                </a>
+
+                <a href="/login" class="secondary-button">
+                    Login
+                </a>
+            </div>
+
+        </div>
+
+    </main>
 
 </body>
-</html>re
+</html>
